@@ -21,7 +21,9 @@
             android:layout_row="0"
             android:layout_column="0"
             android:src="@drawable/web_browser"
-            android:background="@android:color/transparent" />
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:onClick="verMapa" />
 
         <ImageButton
             android:layout_width="171dp"
