@@ -23,7 +23,10 @@
             android:src="@drawable/web_browser"
             android:background="@android:color/transparent"
             android:clickable="true"
-            android:onClick="verMapa" />
+            android:onClick="verMapa"
+            android:focusable="false"
+            android:baselineAlignBottom="false"
+            android:contextClickable="false" />
 
         <ImageButton
             android:layout_width="171dp"

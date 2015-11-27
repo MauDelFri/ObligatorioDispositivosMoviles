@@ -40,6 +40,8 @@
             android:name=".MapaActivity"
             android:label="@string/title_activity_mapa" >
         </activity>
+        <activity android:name=".BuscarActivity" >
+        </activity>
     </application>
 
 </manifest>
