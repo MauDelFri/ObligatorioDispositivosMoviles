@@ -30,7 +30,7 @@ public class BuscarActivity extends Activity implements SearchView.OnQueryTextLi
 
         /**
          * add item in arraylist
-         */
+         */ //nf
         Articulo a1 = new Articulo();
         a1.setId(1);
         a1.setNombre("Piza");
