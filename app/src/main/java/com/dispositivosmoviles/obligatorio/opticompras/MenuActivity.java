@@ -20,4 +20,9 @@ public class MenuActivity extends AppCompatActivity {
         Intent intent = new Intent(v.getContext(), MapaActivity.class);
         startActivity(intent);
     }
+
+    public void buscarArticulos(View v) {
+        Intent intent = new Intent(v.getContext(), BuscarActivity.class);
+        startActivity(intent);
+    }
 }
