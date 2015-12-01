@@ -32,7 +32,7 @@ public class AdaptadorArticulo extends ArrayAdapter<Articulo> {
         this.context = context;
         this.data = data;
     }
-//fnma
+
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
         View row = convertView;
